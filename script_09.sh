@@ -6,9 +6,10 @@
 # read <var_name>
 # read -p "your name" NAME
 
-read name
 echo "Enter your name billow!!"
-# echo "Hey $name, Welcome to hacking world"
+read name
+echo "Hey $name, Welcome to hacking world"
 
-read -p "your name " NAME
+
+read -p "What is your name? " NAME
 echo "Hey $NAME"

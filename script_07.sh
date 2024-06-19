@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# How to store the key value pairs
+# How to store the key value pairs like dictionary
 
 declare -A myArray
 myArray=(

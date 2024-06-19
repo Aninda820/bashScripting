@@ -6,9 +6,10 @@ echo "${#myArray[*]}"
 
 
 # How to get spacific value of an array
-echo "Value from index 2-4:  ${myArray[*]:2:4}"
+echo "value from index ${myArray[*]:0:2}"
+echo "Value from index 2-4:  ${myArray[*]:2:4}"    # :index:numberOfItem
 
 
 # Update our array with new value
-myArray+=(new 999 333)
+myArray+=(minato 999 333)
 echo "This is a new array: ${myArray[*]}"

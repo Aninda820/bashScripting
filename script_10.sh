@@ -6,10 +6,10 @@ b=20
 
 let add=$a+$b
 let sub=$a-$b
-# let a=4*6
+let a=4*6
 
 echo "$add"
 echo "$sub"
 echo "$a"
 
-echo "Multiplication is $(($a*$b))"
+echo "Multiplication is $(($a*$b))"   # we can also do arithmatic operation in  double paranthisis
